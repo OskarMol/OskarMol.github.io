@@ -77,6 +77,8 @@ for (let i = 0; i < movies.length; i++) {
     moviesDiv.appendChild(movieDiv);
 }
 
+let temp = 0;
+
 let averageRating = calculateAverageRating(movies);
 let averageRatingDiv = document.getElementById("average-rating");
 averageRatingDiv.innerHTML = `<h3>Средний рейтинг:</h3><p>${averageRating}</p>`;
