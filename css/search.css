@@ -18,10 +18,11 @@ body {
 }
 
 .navigation button {
-    height: 40px;
-    width: 100px;
+    height: 2.7em;
+    width: 5vw;
     background-color: #FFFFFF;
     border: 1px solid black;
+    font-size: 1vw;
 }
 
 .navigation button:hover {
@@ -81,3 +82,4 @@ a {
     justify-content: center;
     padding: 5% 0;
 }
+

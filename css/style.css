@@ -17,11 +17,17 @@ body {
     font-weight: 700;
 }
 
+.navigation .col-2:last-child {
+    display: none;
+}
+
+
 .navigation button {
-    height: 40px;
-    width: 100px;
+    height: 2.7em;
+    width: 5vw;
     background-color: #FFFFFF;
     border: 1px solid black;
+    font-size: 1vw;
 }
 
 .navigation button:hover {
@@ -67,7 +73,7 @@ a {
 .accard button {
     background-color: white;
     font-size: 1vw;
-    width: 300px;
+    width: 10vw;
     height: 50px;
     border: 2px solid black;
     color: black;
@@ -77,6 +83,10 @@ a {
     background-color: black;
     border: 2px solid white;
     color: white;
+}
+
+.content .col-md-4 img {
+    padding: 5%;
 }
 
 .content {
@@ -114,6 +124,7 @@ h1 {
 
 .sale h3 {
     height: 50px;
+    font-size: 1.5vw;
 }
 
 .sale img {
@@ -159,5 +170,23 @@ h1 {
 
 .footer h3 {
     font-size: 1vw;
+}
+
+@media screen and (max-width: 992px){
+    .accard .col-3 {
+        display: none;
+    }
+
+    .accard button {
+        height: 30px;
+    }
+
+    .navigation .col-1 {
+        display: none;
+    }
+
+    .navigation .col-2:last-child {
+        display: flex;
+    }
 }
 
